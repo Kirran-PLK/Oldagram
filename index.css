@@ -1,0 +1,115 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: "Source Sans 3", sans-serif;
+    background: #F5F5F5;
+}
+
+.container{
+    width: 375px;
+    margin: 10px auto;
+    padding: 0;
+    border: 0px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    background: #FFFFFF;
+    margin: 2px auto 2px auto;
+}
+
+.header-wrapper{
+    border: 0px solid blueviolet;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.avatar-dimensions{
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+}
+
+.oldagram-img{
+    width: 127px;
+    height: 34px;
+    margin-left: 15px;
+}
+
+.user-avatar-img{
+    margin: 16px 0 16px 183px;    
+}
+
+.follower-details-wrapper{
+    border: 0px solid blueviolet;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    margin: 10px 0;
+}
+
+.follower-name-location-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: start; 
+    margin: auto 0 auto 7px; /* space between avatar and text */
+}
+
+.follower-avatar{
+   margin-left: 10px;
+}
+
+.follower-name{
+    font-size: 13px;
+    font-weight: bold;
+    padding: 0;
+    margin: 0;
+}
+
+.follower-location{
+    font-size: 12px;
+    font-weight: normal;
+    padding: 0;
+    margin: 0;
+}
+
+.post-img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 0;
+}
+
+.follower-post-responses{
+    border: 0px solid blueviolet;
+    margin: 15px 10px 15px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+}
+
+.follower-post-reactions{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 0px solid blueviolet;
+}
+
+.reactions{
+    height: 22px;
+    padding-right: 12px;
+}
+
+p{
+    font-size: 13px;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+
+p span{
+    font-weight: normal;
+}
